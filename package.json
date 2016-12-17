@@ -1,6 +1,6 @@
 {
   "name": "string-to-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package for convert string to function without use eval",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "node": ">=6.9.1"
   },
   "repository": {
-    "type":"git",
+    "type": "git",
     "url": "https://github.com/rcschettino/string-to-function.git"
   },
   "author": "Rafael Schettino <rafael_tecnologia@outlook.com>",
