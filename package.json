@@ -1,0 +1,26 @@
+{
+  "name": "string-to-function",
+  "version": "1.0.0",
+  "description": "Package for convert string to function without use eval",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha ./test -u tdd"
+  },
+  "keywords": [
+    "String",
+    "eval",
+    "function",
+    "fn",
+    "no",
+    "eval"
+  ],
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "author": "Rafael Schettino <rafael_tecnologia@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
