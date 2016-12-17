@@ -1,5 +1,5 @@
 'use strict';
-const fnRegex = /^function(?:\s+)?\((.+)?\)(?:\s+|\n+)?\{(?:\s+|\n+)?((?:.|\n)+)\}$/m;
+const fnRegex = /^function(?:.+)?(?:\s+)?\((.+)?\)(?:\s+|\n+)?\{(?:\s+|\n+)?((?:.|\n)+)\}$/m;
 module.exports = function strToFunction(fnString){
   let fnMetadata = fnRegex.exec(fnString);
   let args = [];

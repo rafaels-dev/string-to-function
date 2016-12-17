@@ -44,5 +44,12 @@ suite('Unit tests', function () {
     var expected = 3;
     assert.equal(actual, expected);
   });
+  test('Should convert named function ', function () {
+    var stringFn = 'function namedFunction(a, b) {\nreturn a+b;\n}';
+    var fn = stringToFunction(stringFn);
+    var actual = fn(1, 2);
+    var expected = 3;
+    assert.equal(actual, expected);
+  });
 });
 
